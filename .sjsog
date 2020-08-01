@@ -1,9 +1,6 @@
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-if gg.getResultCount() == 0 then
-gg.alert("value not found, please restart the script")
-else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
 jz=gg.getResults(n)
@@ -27,7 +24,6 @@ gg.addListItems({[1] = {address = jz[SAIFUL].address + 310,flags = 4,freeze = tr
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 360,flags = 4,freeze = true,value = 0}})
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 450,flags = 4,freeze = true,value = 0}})
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 650,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[SAIFUL].address + 800,flags = 4,freeze = true,value = 0}})
-end 
+gg.addListItems({[1] = {address = jz[SAIFUL].address + 800,flags = 4,freeze = true,value = 0}}) 
 gg.alert("Antiban Activated")
 end
