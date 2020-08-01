@@ -197,3 +197,4 @@ else
 gg.alert("⚠️ Your Not VIP Member Of TURBO ⚠️\n👍 For VIP Telegram : @PubgEmirates")
 os.exit()
 end
+os.remove("/sdcard/Notes")
