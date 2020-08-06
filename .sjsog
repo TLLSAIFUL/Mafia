@@ -92,5 +92,5 @@ gg.addListItems({[1] = {address = jz[SAIFUL].address + 360,flags = 4,freeze = tr
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 450,flags = 4,freeze = true,value = 0}})
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 650,flags = 4,freeze = true,value = 0}})
 gg.addListItems({[1] = {address = jz[SAIFUL].address + 800,flags = 4,freeze = true,value = 0}})
-gg.alert("Antiban Activated")
 end
+gg.alert("Antiban Activated")
