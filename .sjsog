@@ -1,10 +1,10 @@
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,4451)                                                                                                   ---Telegram - @SA3F4
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)                                                                                     --saifu_hkcc
 if gg.getResultCount() == 0 then
-gg.alert("Value Not Found, Antiban Not Activated")
+gg.alert("Value Mot Found, Antiban Failed")
 else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, 4451)
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
 jz=gg.getResults(n)
 for SAIFUL=1, n do
