@@ -48,4 +48,4 @@ gg.addListItems(t)
 t = nil
 gg.clearResults()
 gg.setVisible(false)
-gg.alert("Antiban Activated"),
+gg.alert("Antiban Activated")
